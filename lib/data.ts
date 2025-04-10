@@ -1,9 +1,7 @@
 import type { Product, Review } from "@/types"
 
-// Mock categories
 export const categories = ["Electronics", "Clothing", "Home", "Beauty", "Sports", "Books"]
 
-// Mock products data
 export const products: Product[] = [
   {
     id: "1",

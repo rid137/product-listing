@@ -18,10 +18,7 @@ export default function ProductGallery({ images, title }: ProductGalleryProps) {
           src={images[selectedImage] || "/placeholder.png"}
           alt={title}
           fill
-          // width={1000}
-          // height={1000}
           className="object-cover"
-          // sizes="(max-width: 768px) 100vw, 50vw"
           priority
         />
       </div>
