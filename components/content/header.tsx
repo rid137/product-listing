@@ -9,7 +9,6 @@ import { useState, useEffect } from "react";
 export default function Header() {
   const { items } = useCart()
   const [cartItemCount, setCartItemCount] = useState(0)
-  console.log("items", items)
 
   useEffect(() => {
     setCartItemCount(items && items?.reduce((total, item) => total + item.quantity, 0))
