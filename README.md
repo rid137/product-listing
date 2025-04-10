@@ -7,7 +7,7 @@ This is the web app for the WithinLabs Frontend assessment. It is built with Typ
 #### First, clone the repository:
 
 ```bash
-git clone https://github.com/rid137/withinLabs-assess.git
+git clone https://github.com/rid137/product-listing.git
 ```
 
 ### Package Manager
